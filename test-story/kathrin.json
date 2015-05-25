@@ -1,5 +1,13 @@
 {
   "locations": {
+    "start": {
+      "type": "circle",
+      "center": {
+        "latitude": 50.987049,
+        "longitude": 7.636626
+      },
+      "radius": 10
+    },
     "A": {
       "type": "circle",
       "center": {
