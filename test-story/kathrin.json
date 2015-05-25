@@ -23,14 +23,6 @@
         "longitude": 7.638578
       },
       "radius": 5
-    },
-    "C": {
-      "type": "circle",
-      "center": {
-        "latitude": 50.987164,
-        "longitude": 7.639308
-      },
-      "radius": 5
     }
   },
   "screens": {
@@ -69,7 +61,7 @@
     },
     "zuB": {
       "type": "navigate",
-      "location": "A",
+      "location": "B",
       "options": {
         "colorSteps": 2,
         "compass": false,
@@ -79,8 +71,7 @@
     },
     "finish": {
       "type": "finish",
-      "text": "## Geschafft!\n\nMöglich ist also eine Navigation mit oder ohne Pfeil, Distanz und/oder Farbe. Auch können für Antworten Punkte vergeben werden. Bin gespannt auf Dein Feedback!\n\n\n\nLiebe Grüße - Max und Eva",
-      "next": "start"
+      "text": "## Geschafft!\n\nMöglich ist also eine Navigation mit oder ohne Pfeil, Distanz und/oder Farbe. Auch können für Antworten Punkte vergeben werden. Bin gespannt auf Dein Feedback!\n\n\n\nLiebe Grüße - Max und Eva"
     }
   }
 }
