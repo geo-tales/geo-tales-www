@@ -455,6 +455,7 @@ body {
 }
 
 h2 {
+  text-align: center;
   margin-top: 0;
 }
 
@@ -482,7 +483,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-.editor textarea {
+textarea {
   width: 280px;
   margin: 0 5px;
 }
@@ -524,6 +525,29 @@ h2 {
   font-family: monospace;
 }
 
+.actions {
+  margin: 25px;
+  text-align: center;
+}
+
+.actions .action {
+  margin: 5px;
+  width: 200px;
+}
+
 .hidden {
   display: none !important;
+}
+
+.story-editor li {
+  line-height: 2em;
+  list-style-type: none;
+}
+
+.story-editor [name=delete] {
+  float: right;
+}
+
+.story-editor [name=location-add], .story-editor [name=screen-add] {
+  margin-left: 40px;
 }
